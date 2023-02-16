@@ -13,7 +13,9 @@ int main(void)
 puts("\"Programming is like building a multilingual puzzle");
 
 /**
- * return 0 after program run successfully
+ * return - after program run successfully
+ *
+ * Description : Returns 0 when program runs successfully
 */
 
 return (0);
