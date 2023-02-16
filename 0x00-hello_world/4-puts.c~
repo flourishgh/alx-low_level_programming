@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/*Print programming is like building a multiligual puzzle*/
+/*
+Print programming is like building a multiligual puzzle
+*/
 
 int main(void)
 {

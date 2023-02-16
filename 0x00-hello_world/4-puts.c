@@ -1,7 +1,11 @@
 #include <stdio.h>
 
-/*
-Print programming is like building a multiligual puzzle
+/**
+ * main - Program starting point
+ * 
+ * Descriptio : Print Text to the user
+ *
+ * Return : 0 ( success )
 */
 
 int main(void)
