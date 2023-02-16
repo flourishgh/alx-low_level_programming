@@ -5,18 +5,13 @@
  *
  * Description : Print Text to the user
  *
- * Return : Always 0 ( Success )
+ * return : Always 0 ( Success )
+ *
+ * The function always return 0
 */
 
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
-
-/**
- * return - after program run successfully
- *
- * Description : Returns 0 when program runs successfully
-*/
-
 return (0);
 }
