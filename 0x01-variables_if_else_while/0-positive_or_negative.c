@@ -4,20 +4,20 @@
 #include<unistd.h>
 /**
  *main - Check if number is positive or negative
- *Return: Always return 0 
+ *Return: Always return 0
  */
 int main(void)
 {
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-if(n<0)
+if (n<0)
 {
-printf("is negative");
+printf("%d %s",n,"is negative");
 }
 else
 {
-printf("is positive");
+printf("%d %s",n,"is positive");
 }
 return (0);
 }
