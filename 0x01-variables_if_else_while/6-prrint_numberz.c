@@ -1,6 +1,6 @@
 /*
  * File: 5-print_numbers.c
- * Kusi Samuel
+ * Auth: Kusi Samuel
  */
 
 #include <stdio.h>
