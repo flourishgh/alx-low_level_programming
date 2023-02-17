@@ -1,4 +1,4 @@
-XSc#include <stdio.h>
+#include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
 #include<unistd.h>
@@ -27,4 +27,5 @@ if (lastDigit > 5)
 printf("Last digit of %d is %d and is %s", n, lastDigit, "greater than 5"); 
 return (0);
 }
+return (0);
 }
