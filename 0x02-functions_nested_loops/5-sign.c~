@@ -1,5 +1,9 @@
+/*
+ * File: 5-sign.c
+ * Auth: Brennan D Baraban
+ */
 
-#include "main.h"
+#include "holberton.h"
 
 /**
  * print_sign - Prints the sign of a number.
