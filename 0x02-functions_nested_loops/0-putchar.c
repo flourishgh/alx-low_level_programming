@@ -1,5 +1,5 @@
 /*
- Kusi Samuel AlX
+ * Kusi Samuel AlX
  *
  */
 
