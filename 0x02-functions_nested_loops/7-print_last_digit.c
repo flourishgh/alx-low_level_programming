@@ -1,9 +1,9 @@
 /*
  * File: 7-print_last_digit.c
- * Auth: Brennan D Baraban
+ * Auth: Kusi Samuel
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_last_digit - Prints the last digit of a number.

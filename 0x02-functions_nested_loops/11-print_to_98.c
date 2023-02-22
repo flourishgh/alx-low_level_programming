@@ -1,6 +1,6 @@
 /*
  * File: 11-print_to_98.c
- * Auth: Brennan D Baraban
+ * Auth: Kusi Samuel
  */
 
 #include <stdio.h>
