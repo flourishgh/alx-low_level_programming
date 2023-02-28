@@ -6,7 +6,7 @@
  *@s: this is the pointer that point to a string
  */
 
-void rev_string(char *s)
+void rev_string(char *str)
 {
 	/* skip null */
     if (str == 0)
