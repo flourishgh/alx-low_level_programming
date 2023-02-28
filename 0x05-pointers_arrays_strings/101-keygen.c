@@ -13,12 +13,10 @@
 int main(void)
 {
 	int counter, sum, random;
-
+	char password [80];
 	sum = 0;
 	counter = 0;
 	random = 0;
-
-	char password [80];
 
 	srand(time(NULL));
 
