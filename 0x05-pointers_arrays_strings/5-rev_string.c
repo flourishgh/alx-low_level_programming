@@ -6,35 +6,26 @@
  *@s: this is the pointer that point to a string
  */
 
-void rev_string(char *str)
+void rev_string(char *s)
 {
-	/* skip null */
-    if (str == 0)
-    {
-        return;
-    }
+	int a, len;
 
-    /* skip empty string */
-    if (*str == 0)
-    {
-        return;
-    }
+	char *begin, *end = s;
 
-    /* get range */
-    char *start = str;
-    char *end = start + strlen(str) - 1; /* -1 for \0 */
-    char temp;
-
-    /* reverse */
-    while (end > start)
-    {
-        /* swap */
-        temp = *start;
-        *start = *end;
-        *end = temp;
-
-        /* move */
-        ++start;
-        --end;
-    }
+	for (a = 0; s[a] != '\0' && s[a + 1] != '\0'; a++)
+	{
+		end++;
+	}
+	len = a + 1;
+	begin = s;
+	for (a = 0; a < len / 2; a++)
+	{
+		char x;
+		x = *end;
+		*end = *begin;
+		*begin = x;
+		begin++;
+		end--;
+	}
+	end[len + 1] = '\0';
 }
