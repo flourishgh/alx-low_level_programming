@@ -5,10 +5,10 @@
  * @str: The string to be printed.
  * Return: Always void (Success)
  */
-void _puts_recursion(char* str)
+void _puts_recursion(char *str)
 {
 	if (*str == '\0')
-         {
+	{
       		putchar('\n');
 		return;
          }
