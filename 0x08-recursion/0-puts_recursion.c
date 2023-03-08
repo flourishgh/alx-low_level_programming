@@ -5,7 +5,7 @@
  * _put_recursion - Print String Using Recursion
  * Return: Void
  */
-void _put_recursion(char* s)
+void _puts_recursion(char* s)
 {
  if(*s == '\0')
  {

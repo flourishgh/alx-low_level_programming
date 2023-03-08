@@ -1,1 +1,1 @@
-void _put_recursion(char* s);
+void _putrecursion(char* s);
