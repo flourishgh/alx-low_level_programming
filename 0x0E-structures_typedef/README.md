@@ -6,3 +6,8 @@ Task 0
  age type float
  owner type char *
 
+
+ Task 1
+ Write function that initialize a variable of type struct dog
+ filename: 1-init_dog.c
+
