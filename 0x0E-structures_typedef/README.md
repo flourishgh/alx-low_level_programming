@@ -16,3 +16,10 @@ Task 0
  Write a function to print a struct dog. If an element d is NULL print (nil) instead of this element. (if name is NULL, print Name: (nil)). If d is NULL print nothing.
  filename: 2-print_dog.c
 
+
+ Task 3
+ Define a new type dog_t as a new name for the type struct dog.
+
+
+ filename: dog.h
+
