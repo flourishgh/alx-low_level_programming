@@ -23,3 +23,10 @@ Task 0
 
  filename: dog.h
 
+
+ Task 4
+ a function that creates a new dogPrototype: dog_t *new_dog(char *name, float age, char *owner);
+You have to store a copy of name and owner
+Return NULL if the function fails
+File: 4-new_dog.c
+
