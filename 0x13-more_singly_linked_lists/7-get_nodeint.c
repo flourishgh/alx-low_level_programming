@@ -2,7 +2,7 @@
 /**
  * get_nodeint_at_index - Return node at 9th Position
  * @head: A pointer to the head of the listint_t list.
- * @index: The index 
+ * @index: The index
  * Return: NULL OR NODE
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
@@ -17,5 +17,5 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 		head = head->next;
 	}
 
-	return (head);s
+	return (head);
 }
