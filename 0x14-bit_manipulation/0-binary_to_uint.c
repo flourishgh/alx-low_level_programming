@@ -17,7 +17,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[i] != '0' && b[i] != '1')
 			return (0);
-		num += (b[i] - '0') * custom_pow(2, power);
+		num +=(unsigned int) (b[i] - '0') * custom_pow(2, power);
 		power--;
 	}
 	return (num);
